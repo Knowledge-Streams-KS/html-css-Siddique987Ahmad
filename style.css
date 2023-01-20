@@ -1,0 +1,67 @@
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: red;
+
+  /* box-shadow: 0 2px 0 rgb(0 0 0 / 40%); */
+}
+a {
+  padding: 10px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: block;
+  font-size: 50px;
+  color: white;
+  /* padding: 2rem; */
+
+  text-decoration: none;
+}
+a:hover {
+  background-color: blue;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+h1 {
+  color: aliceblue;
+  font-size: 50px;
+}
+p {
+  color: brown;
+  font-size: 20px;
+}
+.header2 {
+  /* display: flex; */
+  background-color: #45567d;
+  /* justify-content: center; */
+
+  height: 100vh;
+}
+h2 {
+  color: aliceblue;
+  font-size: 50px;
+  /* text-decoration:underline; */
+  /* border-bottom:2px solid white ; */
+  /* margin-top: 40px; */
+}
+.flex-container {
+  display: flex;
+  /* flex-direction: row; */
+  color: black;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  justify-content: space-around;
+}
